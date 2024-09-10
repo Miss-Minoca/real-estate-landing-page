@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+nav {
+    background-color: rgba(165, 42, 42, 0.459);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#nav-items {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../assets/images/img1.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    background-color: rgba(165, 42, 42, 0.459);
+    padding: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+input {
+    padding: 10px;
+    width: 40%;
+}
+
+.input-bg {
+    width: 60%;
+}
+
+.search-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.main-container {
+    width: 80%;
+    margin: auto;
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.image-container {
+    width: 50%;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.text-container h3 {
+    margin-bottom: 2rem;
+}
+
+.text-container p {
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: gray;
+}
+
+.text-container a {
+    color: red;
+}
+
+.home-item img {
+    width: 100%;
+}
+
+.flex-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.flex-home a {
+    color: red;
+}
+
+.button-style {
+    background-color: rgba(186, 47, 47, 0.042);
+    font-family: serif;
+    border-color: white
+}
+
+.mortgage {
+    background-color: rgba(87, 18, 18, 0.459);
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 30px;
+}
+
+.mortgage h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.mortgage p {
+    text-align: center;
+    /* width: 50%; */
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.income {
+    padding: 1.5%;
+    border: none;
+    padding-bottom: 2rem;
+}
+
+.submit {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+
+}
+
+.seller-success {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 22px;
+    grid-row-gap: 0px;
+
+    background-color: white;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 25px;
+}
+
+.seller-success p {
+    padding-bottom: 2rem;
+}
+
+.seller-success a {
+    color: red;
+}
+
+.sucess-image {
+    width: 50%;
+}
+
+.image-side img {
+    width: 100%;
+}
+
+
+
+
+.main-footer {
+    background-color: rgba(165, 42, 42, 0.529);
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    align-items: center;
+
+
+}
+
+.end-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+
+}
+
+
+.end-links ul {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.end-links h2 {
+    color: white;
+    text-align: center;
+}
+
+.end-links h3 {
+    color: rgb(85, 84, 84);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.end-links p {
+    color: white;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.end-links-button {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+
+}
+
+.end-list a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.end-list li {
+    list-style-type: none;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
